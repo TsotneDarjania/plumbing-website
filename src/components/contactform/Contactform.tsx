@@ -1,5 +1,5 @@
 import { createSignal } from "solid-js";
-import styles from "./ContactForm.module.css";
+import styles from "./Contactform.module.css";
 
 export default function ContactForm() {
   const [email, setEmail] = createSignal("");
