@@ -1,0 +1,104 @@
+.pricingSection {
+  padding: 4rem 2rem;
+  background-color: #f1f5f9;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #475569;
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.planGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.ribbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #38bdf8;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0ea5e9;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.card ul li {
+  margin: 0.5rem 0;
+  color: #334155;
+  font-size: 0.95rem;
+}
+
+.card button {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.card button:hover {
+  background-color: #0284c7;
+}
+
+/* Highlight most popular card */
+.popular {
+  border: 2px solid #0ea5e9;
+}
