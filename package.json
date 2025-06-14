@@ -9,7 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "solid-js": "^1.9.5"
+    "solid-js": "^1.9.5",
+    "swiper": "^8.4.7"
   },
   "devDependencies": {
     "typescript": "~5.7.2",

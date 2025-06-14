@@ -9,12 +9,12 @@ const slides = [
     description: "ხარისხი და გამოცდილება ჩვენი მთავარი უპირატესობებია.",
   },
   {
-    image: "/plumbing2.jpg",
+    image: "/plumbing2.jfif",
     title: "მოგვწერეთ ნომერზე",
     description: "+995 (ნომერი)",
   },
   {
-    image: "/plumbing3.jpg",
+    image: "/plumbing3.jfif",
     title: "მრავალმხრივი სერვისი",
     description:
       "ქვაბის კალონკის მონტაჟი, ვანის აქსესუარების, უნიტაზი, დუში, სარკე ",
